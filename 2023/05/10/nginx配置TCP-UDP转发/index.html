@@ -23,11 +23,13 @@
 <meta property="og:site_name" content="让风听见的blog">
 <meta property="og:description" content="实现代码12345678910111213141516171819202122stream &amp;#123;    #将12345端口转发到192.168.1.23的3306端口    server &amp;#123;        listen 12345;        proxy_connect_timeout 5s;        proxy_timeout 20s;        proxy_pa">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2023/05/10/nginx%E9%85%8D%E7%BD%AETCP-UDP%E8%BD%AC%E5%8F%91/1.png">
 <meta property="article:published_time" content="2023-05-10T12:36:24.000Z">
-<meta property="article:modified_time" content="2023-05-12T15:18:35.446Z">
+<meta property="article:modified_time" content="2023-05-13T01:44:26.120Z">
 <meta property="article:author" content="让风听见">
 <meta property="article:tag" content="开发">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/2023/05/10/nginx%E9%85%8D%E7%BD%AETCP-UDP%E8%BD%AC%E5%8F%91/1.png">
   
   
   
@@ -295,6 +297,10 @@
 <p>版本一定要大于1.9.1，编译的时候需要–with-stream这个模块支持。</p>
 </blockquote>
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment">#执行下面的命令，根据提示完成安装</span><br>wget https:<span class="hljs-regexp">//</span>raw.githubusercontent.com<span class="hljs-regexp">/helloxz/</span>nginx-cdn<span class="hljs-regexp">/master/</span>nginx.sh &amp;&amp; bash nginx.sh<br><span class="hljs-comment">#安装完成后执行下面的命令让环境变量生效</span><br>source <span class="hljs-regexp">/etc/</span>profile<br><span class="hljs-comment">#执行下面的命令查看nginx信息</span><br>nginx -V<br></code></pre></td></tr></table></figure>
+
+<img src="/2023/05/10/nginx%E9%85%8D%E7%BD%AETCP-UDP%E8%BD%AC%E5%8F%91/1.png" srcset="/img/loading.gif" lazyload class width="1">
+
+
 
 
                 
