@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>测试图片</title>
+    <link href="/2023/05/13/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/"/>
+    <url>/2023/05/13/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/</url>
+    
+    <content type="html"><![CDATA[<h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><h3 id="2"><a href="#2" class="headerlink" title="2"></a>2</h3><h4 id="3"><a href="#3" class="headerlink" title="3"></a>3</h4><p><img src="http://116.62.142.139/img/post/image-20230513081141239.png" alt="image-20230513081141239"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>测试</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>测试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>nginx配置TCP/UDP转发</title>
     <link href="/2023/05/10/nginx%E9%85%8D%E7%BD%AETCP-UDP%E8%BD%AC%E5%8F%91/"/>
     <url>/2023/05/10/nginx%E9%85%8D%E7%BD%AETCP-UDP%E8%BD%AC%E5%8F%91/</url>
