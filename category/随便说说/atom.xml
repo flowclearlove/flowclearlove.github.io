@@ -3,13 +3,37 @@
     <id>http://example.com</id>
     <title>让风听见 • Posts by &#34;随便说说&#34; category</title>
     <link href="http://example.com" />
-    <updated>2023-05-13T15:07:31.000Z</updated>
+    <updated>2023-05-14T13:46:13.000Z</updated>
     <category term="hexo博客" />
     <category term="开发" />
     <category term="日记" />
     <category term="shell" />
     <category term="joplin" />
     <category term="语雀" />
+    <entry>
+        <id>http://example.com/2023/05/14/%E6%97%A5%E8%AE%B0-20230514/</id>
+        <title>日记-20230514</title>
+        <link rel="alternate" href="http://example.com/2023/05/14/%E6%97%A5%E8%AE%B0-20230514/"/>
+        <content type="html">&lt;p&gt;20230514 礼拜天&lt;/p&gt;
+&lt;h2 id=&#34;手气不错的一天&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#手气不错的一天&#34;&gt;#&lt;/a&gt; 手气不错的一天&lt;/h2&gt;
+&lt;p&gt;每周 4 万步参与单位的抢红包大战，依然是手气不错的一天哦&lt;br&gt;
+&lt;img src=&#34;462ccb34a5684fc9acc2caf47de6a688.jpg&#34; alt=&#34;Screenshot_2023-05-14-21-00-39-659_com.tencent.mm.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;西溪湿地&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#西溪湿地&#34;&gt;#&lt;/a&gt; 西溪湿地&lt;/h2&gt;
+&lt;p&gt;西溪湿地的话花开的真好看，这个月份去刚刚好。礼拜天是要出去走走，不然天天这 1 公里的活动范围，人都要发霉了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;3fa6bf4d4635407c8b5ffbb8b246f044.jpg&#34; alt=&#34;CRall_20230514_065905575.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;910da4a8772048fa83ba49bb586d6276.jpg&#34; alt=&#34;CRall_20230514_070846878.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;c6405ffdbece4c969ee9e0943c52f48d.jpg&#34; alt=&#34;CRall_20230514_071331065.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;42f4bc5db1d348df8cd504713290d496.jpg&#34; alt=&#34;CRall_20230514_072416801.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cfcae8af937349ccbdf3f8d90e4f4f76.jpg&#34; alt=&#34;CRall_20230514_071903544.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;6cc2511e9b364e18b9510f2680ea1271.jpg&#34; alt=&#34;CRall_20230514_071853972.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;运动&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#运动&#34;&gt;#&lt;/a&gt; 运动&lt;/h2&gt;
+&lt;p&gt;之前脚崴了，目前已经好的差不错了，今天开始恢复运动，慢跑了 4 公里。感觉还是可以的，指定计划，认真减肥。&lt;/p&gt;
+&lt;h2 id=&#34;物美购物&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#物美购物&#34;&gt;#&lt;/a&gt; 物美购物&lt;/h2&gt;
+&lt;p&gt;物美超市东西确实便宜啊，可惜附近没有。&lt;/p&gt;
+</content>
+        <category term="日记" />
+        <updated>2023-05-14T13:46:13.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2023/05/13/%E6%97%A5%E8%AE%B0-20230513/</id>
         <title>日记-20230513</title>
