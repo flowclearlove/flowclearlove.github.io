@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://example.com</id>
-    <title>让风听见的blog • Posts by &#34;随便说说&#34; category</title>
+    <title>让风听见 • Posts by &#34;随便说说&#34; category</title>
     <link href="http://example.com" />
     <updated>2023-05-13T15:07:31.000Z</updated>
     <category term="hexo博客" />
     <category term="开发" />
     <category term="日记" />
+    <category term="shell" />
+    <category term="joplin" />
     <entry>
         <id>http://example.com/2023/05/13/%E6%97%A5%E8%AE%B0-20230513/</id>
         <title>日记-20230513</title>
