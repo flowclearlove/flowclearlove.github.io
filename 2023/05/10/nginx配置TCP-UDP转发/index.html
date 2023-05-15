@@ -16,12 +16,12 @@
   <meta name="author" content="让风听见">
   <meta name="keywords" content="">
   
-    <meta name="description" content="实现代码12345678910111213141516171819202122stream &amp;#123;    #将12345端口转发到192.168.1.23的3306端口    server &amp;#123;        listen 12345;        proxy_connect_timeout 5s;        proxy_timeout 20s;        proxy_pa">
+    <meta name="description" content="# 实现代码 12345678910111213141516171819202122stream &amp;#123;    #将12345端口转发到192.168.1.23的3306端口    server &amp;#123;        listen 12345;        proxy_connect_timeout 5s;        proxy_timeout 20s;        proxy">
 <meta property="og:type" content="article">
 <meta property="og:title" content="nginx配置TCP&#x2F;UDP转发">
 <meta property="og:url" content="http://example.com/2023/05/10/nginx%E9%85%8D%E7%BD%AETCP-UDP%E8%BD%AC%E5%8F%91/index.html">
 <meta property="og:site_name" content="让风听见">
-<meta property="og:description" content="实现代码12345678910111213141516171819202122stream &amp;#123;    #将12345端口转发到192.168.1.23的3306端口    server &amp;#123;        listen 12345;        proxy_connect_timeout 5s;        proxy_timeout 20s;        proxy_pa">
+<meta property="og:description" content="# 实现代码 12345678910111213141516171819202122stream &amp;#123;    #将12345端口转发到192.168.1.23的3306端口    server &amp;#123;        listen 12345;        proxy_connect_timeout 5s;        proxy_timeout 20s;        proxy">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-05-10T12:36:24.000Z">
 <meta property="article:modified_time" content="2023-05-13T04:54:13.461Z">
@@ -235,7 +235,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          637 字
+          639 字
         
       </span>
     
@@ -289,15 +289,13 @@
             
               <div class="markdown-body">
                 
-                <h2 id="实现代码"><a href="#实现代码" class="headerlink" title="实现代码"></a>实现代码</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-section">stream</span> &#123;<br>    <span class="hljs-comment">#将12345端口转发到192.168.1.23的3306端口</span><br>    <span class="hljs-section">server</span> &#123;<br>        <span class="hljs-attribute">listen</span> <span class="hljs-number">12345</span>;<br>        <span class="hljs-attribute">proxy_connect_timeout</span> <span class="hljs-number">5s</span>;<br>        <span class="hljs-attribute">proxy_timeout</span> <span class="hljs-number">20s</span>;<br>        <span class="hljs-attribute">proxy_pass</span> <span class="hljs-number">192.168.1.23:3306</span>;<br>    &#125;<br>    <span class="hljs-comment">#将udp 53端口转发到192.168.1.23 53端口</span><br>    <span class="hljs-section">server</span> &#123;<br>        <span class="hljs-attribute">listen</span> <span class="hljs-number">53</span> udp reuseport;<br>        <span class="hljs-attribute">proxy_timeout</span> <span class="hljs-number">20s</span>;<br>        <span class="hljs-attribute">proxy_pass</span> <span class="hljs-number">192.168.1.23:53</span>;<br>    &#125;<br>    <span class="hljs-comment">#ipv4转发到ipv6</span><br>    <span class="hljs-section">server</span> &#123;<br>        <span class="hljs-attribute">listen</span> <span class="hljs-number">9135</span>;<br>        <span class="hljs-attribute">proxy_connect_timeout</span> <span class="hljs-number">10s</span>;<br>        <span class="hljs-attribute">proxy_timeout</span> <span class="hljs-number">30s</span>;<br>        <span class="hljs-attribute">proxy_pass</span> [<span class="hljs-number">2607</span>:fcd0:<span class="hljs-number">107</span>:3cc::<span class="hljs-number">1</span>]:<span class="hljs-number">9135</span>;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><blockquote>
-<p>版本一定要大于1.9.1，编译的时候需要–with-stream这个模块支持。</p>
+                <h2 id="实现代码"><a class="markdownIt-Anchor" href="#实现代码">#</a> 实现代码</h2>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-section">stream</span> &#123;<br>    <span class="hljs-comment">#将12345端口转发到192.168.1.23的3306端口</span><br>    <span class="hljs-section">server</span> &#123;<br>        <span class="hljs-attribute">listen</span> <span class="hljs-number">12345</span>;<br>        <span class="hljs-attribute">proxy_connect_timeout</span> <span class="hljs-number">5s</span>;<br>        <span class="hljs-attribute">proxy_timeout</span> <span class="hljs-number">20s</span>;<br>        <span class="hljs-attribute">proxy_pass</span> <span class="hljs-number">192.168.1.23:3306</span>;<br>    &#125;<br>    <span class="hljs-comment">#将udp 53端口转发到192.168.1.23 53端口</span><br>    <span class="hljs-section">server</span> &#123;<br>        <span class="hljs-attribute">listen</span> <span class="hljs-number">53</span> udp reuseport;<br>        <span class="hljs-attribute">proxy_timeout</span> <span class="hljs-number">20s</span>;<br>        <span class="hljs-attribute">proxy_pass</span> <span class="hljs-number">192.168.1.23:53</span>;<br>    &#125;<br>    <span class="hljs-comment">#ipv4转发到ipv6</span><br>    <span class="hljs-section">server</span> &#123;<br>        <span class="hljs-attribute">listen</span> <span class="hljs-number">9135</span>;<br>        <span class="hljs-attribute">proxy_connect_timeout</span> <span class="hljs-number">10s</span>;<br>        <span class="hljs-attribute">proxy_timeout</span> <span class="hljs-number">30s</span>;<br>        <span class="hljs-attribute">proxy_pass</span> [<span class="hljs-number">2607</span>:fcd0:<span class="hljs-number">107</span>:3cc::<span class="hljs-number">1</span>]:<span class="hljs-number">9135</span>;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="前提"><a class="markdownIt-Anchor" href="#前提">#</a> 前提</h2>
+<blockquote>
+<p>版本一定要大于 1.9.1，编译的时候需要–with-stream 这个模块支持。</p>
 </blockquote>
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment">#执行下面的命令，根据提示完成安装</span><br>wget https:<span class="hljs-regexp">//</span>raw.githubusercontent.com<span class="hljs-regexp">/helloxz/</span>nginx-cdn<span class="hljs-regexp">/master/</span>nginx.sh &amp;&amp; bash nginx.sh<br><span class="hljs-comment">#安装完成后执行下面的命令让环境变量生效</span><br>source <span class="hljs-regexp">/etc/</span>profile<br><span class="hljs-comment">#执行下面的命令查看nginx信息</span><br>nginx -V<br></code></pre></td></tr></table></figure>
-
-
-
 
                 
               </div>
