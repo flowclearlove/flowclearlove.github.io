@@ -4,10 +4,11 @@
     <title>让风听见 • Posts by &#34;test&#34; category</title>
     <link href="http://example.com" />
     <updated>2023-05-24T08:18:27.000Z</updated>
-    <category term="hexo博客" />
     <category term="test" />
-    <category term="shell" />
+    <category term="hexo博客" />
     <category term="开发" />
+    <category term="1111" />
+    <category term="shell" />
     <category term="语雀" />
     <category term="joplin" />
     <entry>
@@ -23,7 +24,8 @@
         <id>http://example.com/2023/05/24/test/</id>
         <title>test</title>
         <link rel="alternate" href="http://example.com/2023/05/24/test/"/>
-        <content type="html">&lt;h2 id=&#34;test&#34;&gt;&lt;a href=&#34;#test&#34; class=&#34;headerlink&#34; title=&#34;test&#34;&gt;&lt;/a&gt;test&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;image-20230524155703708.png&#34; alt=&#34;image-20230524155703708&#34;&gt;&lt;/p&gt;
+        <content type="html">&lt;h2 id=&#34;test&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#test&#34;&gt;#&lt;/a&gt; test&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;image-20230524155703708.png&#34; alt=&#34;image-20230524155703708&#34;&gt;&lt;/p&gt;
 </content>
         <category term="test" />
         <updated>2023-05-24T07:56:25.000Z</updated>
