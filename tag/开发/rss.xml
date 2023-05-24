@@ -8,10 +8,11 @@
         <pubDate>Wed, 10 May 2023 20:36:24 +0800</pubDate>
         <lastBuildDate>Wed, 10 May 2023 20:36:24 +0800</lastBuildDate>
         <category>hexo博客</category>
-        <category>开发</category>
-        <category>语雀</category>
-        <category>joplin</category>
         <category>shell</category>
+        <category>开发</category>
+        <category>excel</category>
+        <category>joplin</category>
+        <category>语雀</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/10/nginx%E9%85%8D%E7%BD%AETCP-UDP%E8%BD%AC%E5%8F%91/</guid>
             <title>nginx配置TCP/UDP转发</title>

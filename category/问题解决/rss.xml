@@ -8,10 +8,11 @@
         <pubDate>Sun, 14 May 2023 14:03:27 +0800</pubDate>
         <lastBuildDate>Sun, 14 May 2023 14:03:27 +0800</lastBuildDate>
         <category>hexo博客</category>
-        <category>开发</category>
-        <category>语雀</category>
-        <category>joplin</category>
         <category>shell</category>
+        <category>开发</category>
+        <category>excel</category>
+        <category>joplin</category>
+        <category>语雀</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/14/%E8%AF%AD%E9%9B%80%E4%B8%80%E9%94%AE%E5%AF%BC%E5%87%BAmarkdown/</guid>
             <title>语雀一键导出markdown</title>

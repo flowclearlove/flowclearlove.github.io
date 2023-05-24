@@ -5,10 +5,11 @@
     <link href="http://example.com" />
     <updated>2023-05-14T02:52:00.000Z</updated>
     <category term="hexo博客" />
-    <category term="开发" />
-    <category term="语雀" />
-    <category term="joplin" />
     <category term="shell" />
+    <category term="开发" />
+    <category term="excel" />
+    <category term="joplin" />
+    <category term="语雀" />
     <entry>
         <id>http://example.com/2023/05/14/linux%E5%B7%A1%E6%A3%80%E5%91%BD%E4%BB%A4/</id>
         <title>linux巡检命令</title>
