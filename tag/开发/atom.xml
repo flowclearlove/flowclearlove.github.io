@@ -9,6 +9,7 @@
     <category term="shell" />
     <category term="语雀" />
     <category term="joplin" />
+    <category term="test" />
     <entry>
         <id>http://example.com/2023/05/10/nginx%E9%85%8D%E7%BD%AETCP-UDP%E8%BD%AC%E5%8F%91/</id>
         <title>nginx配置TCP/UDP转发</title>

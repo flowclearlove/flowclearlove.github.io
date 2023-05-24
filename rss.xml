@@ -5,13 +5,24 @@
         <link>http://example.com</link>
         <description>人生不可能总是顺心如意的，但是持续朝着阳光走，影子就会躲在后面。刺眼，却表明对的方向。</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 14 May 2023 14:03:27 +0800</pubDate>
-        <lastBuildDate>Sun, 14 May 2023 14:03:27 +0800</lastBuildDate>
+        <pubDate>Wed, 24 May 2023 15:56:25 +0800</pubDate>
+        <lastBuildDate>Wed, 24 May 2023 15:56:25 +0800</lastBuildDate>
         <category>hexo博客</category>
         <category>开发</category>
         <category>shell</category>
         <category>语雀</category>
         <category>joplin</category>
+        <category>test</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/05/24/test/</guid>
+            <title>test</title>
+            <link>http://example.com/2023/05/24/test/</link>
+            <category>test</category>
+            <pubDate>Wed, 24 May 2023 15:56:25 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;test&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#test&#34;&gt;#&lt;/a&gt; test&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;image-20230524155703708.png&#34; alt=&#34;image-20230524155703708&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/14/%E8%AF%AD%E9%9B%80%E4%B8%80%E9%94%AE%E5%AF%BC%E5%87%BAmarkdown/</guid>
             <title>语雀一键导出markdown</title>

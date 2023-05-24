@@ -9,6 +9,7 @@
     <category term="shell" />
     <category term="语雀" />
     <category term="joplin" />
+    <category term="test" />
     <entry>
         <id>http://example.com/2023/05/14/%E8%AF%AD%E9%9B%80%E4%B8%80%E9%94%AE%E5%AF%BC%E5%87%BAmarkdown/</id>
         <title>语雀一键导出markdown</title>

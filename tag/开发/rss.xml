@@ -12,6 +12,7 @@
         <category>shell</category>
         <category>语雀</category>
         <category>joplin</category>
+        <category>test</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/10/nginx%E9%85%8D%E7%BD%AETCP-UDP%E8%BD%AC%E5%8F%91/</guid>
             <title>nginx配置TCP/UDP转发</title>
