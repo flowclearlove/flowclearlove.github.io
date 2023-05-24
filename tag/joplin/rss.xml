@@ -7,13 +7,11 @@
         <language>zh-CN</language>
         <pubDate>Sun, 14 May 2023 13:31:47 +0800</pubDate>
         <lastBuildDate>Sun, 14 May 2023 13:31:47 +0800</lastBuildDate>
-        <category>test</category>
         <category>hexo博客</category>
         <category>开发</category>
-        <category>1111</category>
-        <category>shell</category>
         <category>语雀</category>
         <category>joplin</category>
+        <category>shell</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/14/%E9%98%BF%E9%87%8C%E4%BA%91%E6%90%AD%E5%BB%BAwebdev%EF%BC%88docker%EF%BC%89/</guid>
             <title>阿里云搭建webdev（docker）</title>
