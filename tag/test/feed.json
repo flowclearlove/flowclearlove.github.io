@@ -19,7 +19,7 @@
             "url": "http://example.com/2023/05/24/test/",
             "title": "test",
             "date_published": "2023-05-24T07:56:25.000Z",
-            "content_html": "<h2 id=\"test\"><a class=\"markdownIt-Anchor\" href=\"#test\">#</a> test</h2>\n<p><img src=\"image-20230524155703708.png\" alt=\"image-20230524155703708\"></p>\n",
+            "content_html": "<h2 id=\"test\"><a href=\"#test\" class=\"headerlink\" title=\"test\"></a>test</h2><p><img src=\"image-20230524155703708.png\" alt=\"image-20230524155703708\"></p>\n",
             "tags": [
                 "test"
             ]
