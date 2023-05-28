@@ -10,6 +10,7 @@
     <category term="excel" />
     <category term="joplin" />
     <category term="语雀" />
+    <category term="多线程" />
     <entry>
         <id>http://example.com/2023/05/14/%E9%98%BF%E9%87%8C%E4%BA%91%E6%90%AD%E5%BB%BAwebdev%EF%BC%88docker%EF%BC%89/</id>
         <title>阿里云搭建webdev（docker）</title>

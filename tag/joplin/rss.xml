@@ -13,6 +13,7 @@
         <category>excel</category>
         <category>joplin</category>
         <category>语雀</category>
+        <category>多线程</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/14/%E9%98%BF%E9%87%8C%E4%BA%91%E6%90%AD%E5%BB%BAwebdev%EF%BC%88docker%EF%BC%89/</guid>
             <title>阿里云搭建webdev（docker）</title>
